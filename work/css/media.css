@@ -1,0 +1,169 @@
+/*@media screen and (max-width: 1170px) {
+	.header {
+	width: 960px;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 991px) {
+	.section_block {
+	
+	background: url(../img/bg_2.jpg) center center;
+	background-size: cover;
+
+}
+.viewport {
+	height: 400px;
+}
+.sld_item {
+	
+	width: 300px;
+	height: 400px;
+}
+
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 768px)  {
+	.wrap_content {
+	width: 100%;
+	max-width: 1170px;
+	margin: 0px auto;
+	display: block;
+
+}
+
+	.block_photo {
+	
+	width: 100%;
+	padding: 80px 30px 30px 30px;
+	background: #ffc815;
+}
+.wrap_img_photo {
+	max-width: 320px;
+	max-height: 370px;
+	float: left;
+	padding-right: 20px;
+}
+.text_photo {
+	
+}
+
+.block_skils {
+	/*float: right;*/
+	width: 100%;
+	
+}
+.head_expirince {
+	margin: 0px 10px;
+	margin-bottom: 70px;
+}
+.exp_l_text {
+	margin-left: 30px;
+	width: 100%;
+	float: none;
+	margin-bottom: 20px;
+}
+.exp_r_text {
+	float: none;
+
+	width: 100%;
+	
+}
+.wrap_portf_photo {
+	margin-bottom: 50px;
+}
+.counter_list {
+	display: block;
+}
+.counter_item {
+	margin-bottom: 40px;
+}
+.form_input {
+	float: none;
+	width: 100%;
+	padding: 0px 30px;
+}
+.row {
+	margin: 0px -15px;
+}
+.messege {
+	padding: 0px 30px;
+}
+.viewport {
+	height: 300px;
+}
+.sld_item {
+	
+	width: 200px;
+	height: 300px;
+}
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 576px) {
+	.popup_wrap.active {
+	display: block;
+}
+		.section_block {
+	
+	background: url(../img/bg_3.jpg) center center;
+	background-size: cover;
+
+}
+	.row {
+		position: relative;
+	}
+	.nav {
+		
+		visibility: hidden;
+	}
+	.icon_nav {
+		visibility: visible;
+	}
+	.down_icon_list {
+		max-width: 320px;
+	}
+	.center_b_text {
+		font-size: 4rem;
+	}
+	.center_s_text {
+		font-size: 2rem;
+	}
+	.head_photo {
+	text-align: center;
+	}
+	.wrap_img_photo {
+	max-width: 320px;
+	max-height: 370px;
+	margin: 0px auto;
+	float: none;
+	
+}
+.portf_menu_list {
+	display: block;	
+}
+.portf_menu_item {
+	display: block;
+}
+.viewport {
+	height: 200px;
+}
+.sld_item {
+	
+	width: 150px;
+	height: 200px;
+}
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+	/*.section_block {
+		height: 100%;
+	}*/
+}
