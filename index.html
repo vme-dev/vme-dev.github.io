@@ -23,11 +23,11 @@
 		<div class="wrap_in">
 
 			<div class="head_menu">
-					<ul class="menu_list">
-						<li class="menu_item"><a href="#" class="menu_link">Home</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">About</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">My work</a></li>
-						<li class="menu_item"><a href="#" class="menu_link">Contact</a></li>
+					<ul class="menu_list" id="main_menu">
+						<li class="menu_item"><a href="#" class="menu_link" data-scroll="home">Home</a></li>
+						<li class="menu_item"><a href="#" class="menu_link" data-scroll="about">About</a></li>
+						<li class="menu_item"><a href="#" class="menu_link" data-scroll="work">My work</a></li>
+						<li class="menu_item"><a href="#" class="menu_link" data-scroll="contact">Contact</a></li>
 					</ul>
 			</div>
 
@@ -40,14 +40,14 @@
 					</div>
 				</div>
 
-				<div class="bottom">
+				<div class="bottom" id="bot_scroll">
 					<a href="#" class="bottom_link"><i class="fa fa-angle-down"></i></a>
 				</div>
 
 			</section>
 
 
-			<section class="second_section">
+			<section class="second_section" id="about">
 				<h2 class="block_head">About me</h2>
 				
 				<div class="about_wrap">
@@ -123,28 +123,29 @@
 						<a href="r.docx" class="btn_resume">Download Resume</a>
 					</div>
 			</section>
-			<section class="third_section">
+			<section class="third_section" id="work">
 				<h2 class="block_head">My work</h2>
 				<div class="work_wrap">
 					<div class="w_menu_wrap">
-						<ul class="w_menu_list">
-							<li class="w_menu_item active"><span>All</span></li>
-							<li class="w_menu_item"><span>React</span></li>
-							<li class="w_menu_item"><span>CSS</span></li>
+						<ul class="w_menu_list" id="work_list">
+							<li class="w_menu_item active"><span data-select="all">All</span></li>
+							<li class="w_menu_item"><span data-select="react">React</span></li>
+							<li class="w_menu_item"><span data-select="css">CSS</span></li>
+							<li class="w_menu_item"><span data-select="js">JS</span></li>
 						</ul>
 					</div>
 
-					<ul class="work_list">
+					<ul class="work_list" >
 						<li class="work_item" id="first_work">
 							<a href="./work/index.html" class="work_link">1
 							<div class="w_info"></div>
 							<div class="w_info_in">Landing Page</div>
 							</a>
 						</li>
-						<li class="work_item">
-							<a href="#" class="work_link">2
+						<li class="work_item" id="second_work">
+							<a href="https://github.com/vme-dev/home-prodject" class="work_link">2
 								<div class="w_info"></div>
-								<div class="w_info_in">Lorem ipsum dolor sit amet</div>
+								<div class="w_info_in">React ToDoList</div>
 							</a>
 						</li>
 						<li class="work_item">
@@ -192,7 +193,7 @@
 					</ul>
 				</div>
 			</section>
-			<section class="fourth_section">
+			<section class="fourth_section" id="contact">
 				<h2 class="block_head">Contact</h2>
 				<div class="contact_wrap">
 					<div class="contact_sidebar"></div>
@@ -204,16 +205,16 @@
 								<input type="text" class="input_name">
 							</fieldset>
 							<fieldset>
-								<label for="name">Name</label>
+								<label for="phone">Phone</label>
 								<input type="text" class="input_name">
 							</fieldset>
 							<fieldset>
-								<label for="name">Name</label>
+								<label for="email">Email</label>
 								<input type="text" class="input_name">
 							</fieldset>
 							<fieldset>
-								<label for="name">Name</label>
-								<textarea rows="8"  name="text"></textarea>
+								<label for="text">Text</label>
+								<textarea rows="8"  name="text" class="input_name"></textarea>
 							</fieldset>
 							<fieldset>
 								<a href="#" class="input_submit">Submit</a>
@@ -253,13 +254,14 @@
 					
 				</div>
 				<div class="footer">
-						<h3 class="footer_head">Copyright 2014 | All Rights Reserved</h3>
+						<h3 class="footer_head">Copyright 2018 | All Rights Reserved</h3>
 					</div>
 			</section>
 
 		</div>
 	</div>
 
-	<script src="script/script.js"></script>
+	
 </body>
+<script src="script/script.js"></script>
 </html>
