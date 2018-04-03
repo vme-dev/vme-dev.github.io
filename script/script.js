@@ -154,5 +154,43 @@ submit[0].addEventListener('click', validateForm);
 
 function validateForm(e) {
 	var input = document.getElementsByClassName('input_name');
-	
+
+	for (var i = 0; i < input.length; i++) {
+     if (input[i].value == "" ) {
+
+        if (!input[i].parentElement.querySelector(".popup")) {
+            var div = document.createElement('div');
+            div.classList.add("popup");
+            div.innerHTML = "Please, fill in this field";
+            input[i].parentElement.insertBefore(div, input[i]);
+        }
+
+        
+
+        input[i].classList.add("err");
+        } else {
+            input[i].classList.remove("err");
+           
+            if (input[i].parentElement.querySelector(".popup")) {
+                input[i].parentElement.removeChild(input[i].parentElement.querySelector(".popup"));
+            }
+        }
+    }
+    e.preventDefault();
+};
+
+var cancel = document.getElementsByClassName('input_cancel');
+
+cancel[0].addEventListener('click', resetForm);
+
+function resetForm(e) {
+   
+    var input = document.getElementsByClassName('input_name');
+    
+
+    for (var i = 0; i < input.length; i++) {
+        input[i].value = "";
+}
+        
+    e.preventDefault();
 };

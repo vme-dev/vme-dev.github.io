@@ -255,6 +255,10 @@ body {
 	margin: 2px 3px;
 	border-radius: 3px;
 }
+.progres_load.html { width: 50%; }
+.progres_load.js { width: 50%; }
+.progres_load.node {width: 5%;}
+.progres_load.mongo {width: 1%;}
 .btn_wrap {
 	text-align: center;
 }
@@ -417,7 +421,9 @@ input, textarea {outline:none;}
 	border-radius: 5px;
 	background: #eee;
 }
-
+.input_name.err {
+	border: 2px solid #CC4646;
+}
 .contact_form .input_submit, .contact_form .input_cancel {
 	width: 40%;
 	float: left;
@@ -449,8 +455,28 @@ input, textarea {outline:none;}
 	background: #A73838;
 }
 
-
-
+.div {
+	position: relative;
+}
+.popup {
+	display: inline-block;
+	position: absolute;
+	padding: 10px;
+	background: #000;
+	color: #fff;
+	
+	left: 0px;
+	transform: translateY(-100%);
+	border-radius: 5px;
+	margin-top: -7px;
+}
+.popup:after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    left: 10px; bottom: -20px; /* Положение треугольника */
+    border: 10px solid transparent; /* Прозрачные границы */
+    border-top: 10px solid #000; /* Добавляем треугольник */
+   }
 
 .fifth_section {
 	padding: 30px 0px 0px;
