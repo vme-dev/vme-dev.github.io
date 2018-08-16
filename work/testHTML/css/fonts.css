@@ -1,0 +1,33 @@
+	@font-face {
+			font-family: "Yantramanav-light";
+			src:url("fonts/yantramanav/yantramanav-light.otf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "Yantramanav-regular";
+			src:url("fonts/yantramanav/yantramanav-regular.otf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "Yantramanav-thin";
+			src:url("fonts/yantramanav/yantramanav-thin.otf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	@font-face {
+			font-family: "Nunito-Regular";
+			src: url("fonts/nunito/Nunito-Regular.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+	@font-face {
+			font-family: "Nunito-Light";
+			src: url("fonts/nunito/Nunito-Light.ttf") format("truetype");
+			font-style: normal;
+			font-weight: normal;
+	}
+
+	

@@ -1,0 +1,152 @@
+@media screen and (max-width: 1170px) {
+	.line_list {
+		display: none;
+	}
+}
+
+/* Landscape tablets and medium desktops */
+@media (max-width: 991px) {
+	.about {
+		height: auto;
+	}
+	.left_block,.right_block {
+		float: none;
+		margin: 0px auto;
+		width: 100%;
+	}
+	.wrap_main_img {
+		width: 60%;
+		margin: 0px auto;
+	}
+
+	.reviews {
+		height: auto;
+	}
+	.reviews .right_block {
+     height: auto; 
+	}
+	.reviews .wrap_main_text { 
+		display: block;
+		height: auto;
+	}
+
+	.why .left_list {
+		float: none;
+		position: static;
+		width: 100%;
+		padding: 0px 10px;
+		max-width: unset;
+	}
+	.why .right_list {
+		float: none;
+		position: static;
+		width: 100%;
+		padding: 0px 10px;
+		max-width: unset;
+	}
+	.address_item {
+		width: 25%;
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (max-width: 768px)  {
+	.range {
+		height: auto;
+	}
+	.wrap_range {
+	    display: block;
+	    text-align: center;
+	    height: auto;
+	}
+	.slider_img .btn_left {
+		top: 100%;
+    	left: 35%;
+     	transform: none; 
+	}
+	.slider_img .btn_right {
+		top: 100%;
+    	right: 35%;
+     	transform: none;
+	}
+	.address_item {
+		width: 30%;
+	}
+	.left_nav {
+		display: none;
+	}
+}
+
+/* Landscape phones and portrait tablets */
+@media screen and (max-width: 576px) {
+	.reg_form {
+		padding: 0px 10px;
+	}
+	
+	.wrap_form {
+	width: 100%;
+	margin: 0px auto;
+	}
+
+	.wrap_main_img {
+		width: 100%;
+		margin: 0px auto;
+	}
+	.wrap_range_img {
+		width: 320px;
+    	 height: 165px; 
+	}
+	.range_img {
+		width: 100%;
+    	height: auto;
+	}
+	.slider_img .btn_left {
+    	left: 25%;
+	}
+	.slider_img .btn_right {
+    	right: 25%;
+	}
+	.location_footer_email,.location_footer_phone {
+		display: block;
+		text-align: center;
+	}
+}
+
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.intro_header {
+		line-height: 1em;
+	}
+	.intro_about {
+		margin-bottom: 60px;
+	}
+	.wrap_form {
+		border-radius: 0px;
+		overflow: visible;
+	}
+	.wrap_reg_email,.wrap_reg_submit {
+		border-radius: 22px;
+		overflow: hidden;
+		margin-bottom: 10px;
+	}
+	.reg_email,.reg_submit {
+		float: none;
+		width: 100%;
+		
+	}
+	.address_item {
+		width: 50%;
+	}
+	
+}
+
+/* Iphone 5 */
+@media (max-width: 320px) {
+	.slider_img .btn_left {
+    	left: 10%;
+	}
+	.slider_img .btn_right {
+    	right: 10%;
+	}
+}
